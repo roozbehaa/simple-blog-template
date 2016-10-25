@@ -47,10 +47,31 @@ nav {
     border-radius: 0;
 }
 
-/* Pager */
 .pager li>a {
     color: inherit;
     border-radius: 0;
     border: 0;
     padding: 0.9em 1.4em;
+}
+
+/* Login, Sign up */
+.login,
+.signup {
+    margin-top: 20px;
+}
+
+.login .form-control,
+.signup .form-control {
+    border-radius: 0;
+}
+
+.login button,
+.signup button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.form-group label {
+    font-weight: normal;
 }
