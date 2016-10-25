@@ -54,14 +54,22 @@ nav {
     padding: 0.9em 1.4em;
 }
 
-/* Login, Sign up */
+/* Login, Sign up, New post */
 .login,
 .signup {
     margin-top: 20px;
 }
 
+.login h1,
+.signup h1,
+.newpost h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .login .form-control,
-.signup .form-control {
+.signup .form-control,
+.newpost .form-control {
     border-radius: 0;
 }
 
@@ -74,4 +82,8 @@ nav {
 
 .form-group label {
     font-weight: normal;
+}
+
+.newpost textarea {
+    max-width: 100%;
 }
